@@ -1,0 +1,1729 @@
+findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans.
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Helvetica
+findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans.
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Helvetica
+findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans.
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Helvetica
+/home1/04584/tg838839/local/Stress_velocity_friction_input/pyandrewsbarall/__init__.py:212: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure() #Q
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    25 km
+Rupture width is    11 km
+Nx = 1000.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1002
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   570   150   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 992)
+Segment ending index:  (11, 992, 1002)
+True fault is from 11 to 992 (in total 982) 
+
+Hypocentral index is 570 150 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2464Mb of 6553600Mb per node
+Time limit: 0:17:00
+SUs: 283
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_001
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1001)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-992),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1002)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1001)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_001/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_001/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    25 km
+Rupture width is    11 km
+Nx = 1000.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1002
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   430   110   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 992)
+Segment ending index:  (11, 992, 1002)
+True fault is from 11 to 992 (in total 982) 
+
+Hypocentral index is 430 110 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2464Mb of 6553600Mb per node
+Time limit: 0:17:00
+SUs: 283
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_002
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1001)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-992),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1002)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1001)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_002/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_002/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    25 km
+Rupture width is    11 km
+Nx = 1000.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1002
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   520   160   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 992)
+Segment ending index:  (11, 992, 1002)
+True fault is from 11 to 992 (in total 982) 
+
+Hypocentral index is 520 160 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2464Mb of 6553600Mb per node
+Time limit: 0:17:00
+SUs: 283
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_003
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1001)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-992),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1002)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1001)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_003/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_003/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    25 km
+Rupture width is    11 km
+Nx = 1000.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1002
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   630   130   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 992)
+Segment ending index:  (11, 992, 1002)
+True fault is from 11 to 992 (in total 982) 
+
+Hypocentral index is 630 130 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2464Mb of 6553600Mb per node
+Time limit: 0:17:00
+SUs: 283
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_004
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1001)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-992),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1002)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1001)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_004/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_004/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    25 km
+Rupture width is    11 km
+Nx = 1000.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1002
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   360   130   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 992)
+Segment ending index:  (11, 992, 1002)
+True fault is from 11 to 992 (in total 982) 
+
+Hypocentral index is 360 130 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2464Mb of 6553600Mb per node
+Time limit: 0:17:00
+SUs: 283
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_005
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1001)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-992),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1002)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1002)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1001)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1001)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_005/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.5_005/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    29 km
+Rupture width is    12 km
+Nx = 1148.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1147
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   649   110   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1137)
+Segment ending index:  (11, 1137, 1147)
+True fault is from 11 to 1137 (in total 1127) 
+
+Hypocentral index is 649 110 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2576Mb of 6553600Mb per node
+Time limit: 0:18:00
+SUs: 352
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_001
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1146)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1137),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1147)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1146)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_001/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_001/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    29 km
+Rupture width is    12 km
+Nx = 1148.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1147
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   589   140   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1137)
+Segment ending index:  (11, 1137, 1147)
+True fault is from 11 to 1137 (in total 1127) 
+
+Hypocentral index is 589 140 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2576Mb of 6553600Mb per node
+Time limit: 0:18:00
+SUs: 352
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_002
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1146)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1137),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1147)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1146)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_002/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_002/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    29 km
+Rupture width is    12 km
+Nx = 1148.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1147
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   519   110   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1137)
+Segment ending index:  (11, 1137, 1147)
+True fault is from 11 to 1137 (in total 1127) 
+
+Hypocentral index is 519 110 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2576Mb of 6553600Mb per node
+Time limit: 0:18:00
+SUs: 352
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_003
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1146)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1137),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1147)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1146)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_003/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_003/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    29 km
+Rupture width is    12 km
+Nx = 1148.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1147
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   739   140   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1137)
+Segment ending index:  (11, 1137, 1147)
+True fault is from 11 to 1137 (in total 1127) 
+
+Hypocentral index is 739 140 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2576Mb of 6553600Mb per node
+Time limit: 0:18:00
+SUs: 352
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_004
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1146)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1137),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1147)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1146)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_004/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_004/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    29 km
+Rupture width is    12 km
+Nx = 1148.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1147
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   569   150   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1137)
+Segment ending index:  (11, 1137, 1147)
+True fault is from 11 to 1137 (in total 1127) 
+
+Hypocentral index is 569 150 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2576Mb of 6553600Mb per node
+Time limit: 0:18:00
+SUs: 352
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_005
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1146)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1137),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1147)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1147)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1146)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1146)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_005/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.6_005/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    33 km
+Rupture width is    13 km
+Nx = 1318.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1313
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   547   140   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1303)
+Segment ending index:  (11, 1303, 1313)
+True fault is from 11 to 1303 (in total 1293) 
+
+Hypocentral index is 547 140 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2688Mb of 6553600Mb per node
+Time limit: 0:21:00
+SUs: 448
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_001
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1312)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1303),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1313)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1312)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_001/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_001/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    33 km
+Rupture width is    13 km
+Nx = 1318.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1313
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   517   120   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1303)
+Segment ending index:  (11, 1303, 1313)
+True fault is from 11 to 1303 (in total 1293) 
+
+Hypocentral index is 517 120 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2688Mb of 6553600Mb per node
+Time limit: 0:21:00
+SUs: 448
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_002
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1312)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1303),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1313)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1312)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_002/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_002/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    33 km
+Rupture width is    13 km
+Nx = 1318.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1313
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   647   210   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1303)
+Segment ending index:  (11, 1303, 1313)
+True fault is from 11 to 1303 (in total 1293) 
+
+Hypocentral index is 647 210 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2688Mb of 6553600Mb per node
+Time limit: 0:21:00
+SUs: 448
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_003
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1312)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1303),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1313)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1312)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_003/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_003/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    33 km
+Rupture width is    13 km
+Nx = 1318.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1313
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   677   200   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1303)
+Segment ending index:  (11, 1303, 1313)
+True fault is from 11 to 1303 (in total 1293) 
+
+Hypocentral index is 677 200 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2688Mb of 6553600Mb per node
+Time limit: 0:21:00
+SUs: 448
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_004
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1312)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1303),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1313)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1312)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_004/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_004/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    33 km
+Rupture width is    13 km
+Nx = 1318.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1313
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   657   160   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1303)
+Segment ending index:  (11, 1303, 1313)
+True fault is from 11 to 1303 (in total 1293) 
+
+Hypocentral index is 657 160 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2688Mb of 6553600Mb per node
+Time limit: 0:21:00
+SUs: 448
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_005
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1312)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1303),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1313)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1313)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1312)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1312)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_005/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.7_005/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    38 km
+Rupture width is    15 km
+Nx = 1513.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1504
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   715   180   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1494)
+Segment ending index:  (11, 1494, 1504)
+True fault is from 11 to 1494 (in total 1484) 
+
+Hypocentral index is 715 180 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2800Mb of 6553600Mb per node
+Time limit: 0:24:00
+SUs: 588
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_001
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1503)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1494),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1504)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1503)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_001/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_001/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    38 km
+Rupture width is    15 km
+Nx = 1513.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1504
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   975   190   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1494)
+Segment ending index:  (11, 1494, 1504)
+True fault is from 11 to 1494 (in total 1484) 
+
+Hypocentral index is 975 190 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2800Mb of 6553600Mb per node
+Time limit: 0:24:00
+SUs: 588
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_002
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1503)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1494),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1504)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1503)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_002/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_002/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    38 km
+Rupture width is    15 km
+Nx = 1513.0, Nz = 600.0
+Initiate SORDinput Module
+
+Nx =  1504
+Ny =   432
+Nz =   864
+Fault is normal to 3
+Hypocenter is at   935   180   432
+Dx is 50.000000 50.000000 50.000000
+
+Number of fault segments:   3
+Segment starting index:  (1, 11, 1494)
+Segment ending index:  (11, 1494, 1504)
+True fault is from 11 to 1494 (in total 1484) 
+
+Hypocentral index is 935 180 432
+Generating sordw3 running folder ... ...
+SORD setup
+Machine: frontera
+Cores: 7168 of 483840
+Nodes: 128 of 8640
+RAM: 2800Mb of 6553600Mb per node
+Time limit: 0:24:00
+SUs: 588
+Run directory: /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_003
+
+
+--------------------------------------------------------------
+
+                       Set up velocity module
+
+
+Customized velocity model has been enabled
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vp.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/vs.bin (431,)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/rho.bin (431,)
+
+
+--------------------------------------------------------------
+
+                       Set up stress module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xx.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_zz.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_xz.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/sigma_yy.bin (431, 1503)
+
+
+--------------------------------------------------------------
+
+                Set up Slip Weakening Friction module
+
+
+Plot fault range: x(11-1494),y(1-432)
+Side   taper node ntx 100
+Top	taper node ntx 0
+Bottom taper node ntx 100
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/fco.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mus.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/mud.bin (432, 1504)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/dc.bin (432, 1504)
+
+
+--------------------------------------------------------------
+
+                       Set up Plasticity module
+
+
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/phi.bin (431, 1503)
+Write size check /home1/04584/tg838839/local/Stress_velocity_friction_input/bin/pco.bin (431, 1503)
+cp /home1/04584/tg838839/local/Stress_velocity_friction_input/bin//* /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_003/in
+sh /home1/04584/tg838839/scratch/GenericStrikeSlip_SW/M6.8_003/queue.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+--------------------------------------------------------------
+
+          Set up Andrews and Barall (2011) module
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M-L-W scaling used is Leonard2014_Interp-SS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Rupture length is    38 km
+Rupture width is    15 km
+Nx = 1513.0, Nz = 600.0
+Traceback (most recent call last):
+  File "RSscenario.py", line 1405, in <module>
+  File "RSscenario.py", line 163, in multi_run
+  File "RSscenario.py", line 193, in module_init
+  File "/home1/04584/tg838839/local/Stress_velocity_friction_input/pyandrewsbarall/__init__.py", line 26, in scenario_from_mag
+  File "/home1/04584/tg838839/local/Stress_velocity_friction_input/pyandrewsbarall/__init__.py", line 47, in scenario_generator_nonpower2
+MemoryError: Unable to allocate 3.46 MiB for an array with shape (1513, 600) and data type float32
